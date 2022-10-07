@@ -68,6 +68,8 @@
     "build:aom": "node ./tools/builder.js aom",
     "build:geonovum-debug": "npm run build:geonovum -- --debug",
     "build:geonovum": "node ./tools/builder.js geonovum",
+    "build:pdok": "node ./tools/builder.js pdok",
+    "build:pdok-debug": "node ./tools/builder.js pdok -- --debug",
     "build:w3c-debug": "npm run build:w3c -- --debug",
     "build:w3c": "node ./tools/builder.js w3c",
     "build:dini-debug": "node run build:dini -- --debug",
